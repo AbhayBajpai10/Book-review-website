@@ -1,0 +1,252 @@
+body {
+    background-image: url("book libbbb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    --theme: #e0ddd9;
+    --accent-color1: rgb(166, 86, 141);
+    --accent-color2: #f18585;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: var(--theme);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    border: 2px solid var(--theme);
+  }
+  
+  li a.active {
+    color: white;
+    background-color: var(--theme);
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .flex-container > div {
+    text-align: left;
+  }
+  
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  nav .logo {
+    width: 15%;
+    text-align: center;
+    color: pink;
+    font-size: 20px;
+  }
+  nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav .menu a:first-child {
+    color: violet;
+  }
+  
+  nav {
+    width: 100%;
+    height: 15vh;
+    background: rgba(16, 1, 1, 0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    opacity: 100%;
+  }
+  
+  .formContainer {
+    background-image: linear-gradient(
+      0deg,
+      rgba(141, 110, 81, 0.829) 12%,
+      rgba(222, 171, 124, 0.247) 36%,
+      rgba(187, 145, 105, 0.719) 74%
+    );
+    margin: 50px 50px 0 50px;
+  }
+  .registerContainer {
+    margin: auto;
+    width: 50%;
+    margin-top: 50px;
+    justify-content: center;
+    background-image: none;
+  }
+  .loginContainer {
+    background-image: none;
+    margin: auto;
+    width: 50%;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  .loginContainer .div2 {
+    background-image: url("hand-painted-watercolor-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  .loginContainer .div1 {
+    margin: 0;
+    text-align: center;
+  }
+  .div2 {
+    width: 50%;
+  }
+  .div1 {
+    width: 50%;
+    background-image: url("redbook.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 10px 10px 20px;
+    padding: 20px;
+  }
+  .registerDiv {
+    width: 70%;
+    margin: 20px 10px 10px 20px;
+  }
+  
+  input,
+  select,
+  button {
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px 0 10px 0;
+  }
+  
+  .width100 {
+    width: 100%;
+  }
+  
+  .textHeading {
+    color: rgb(54, 2, 2);
+    font-weight: 800;
+    font-size: 40px;
+    margin: 5px;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+  }
+  
+  #logInText {
+    color: rgb(247, 126, 126);
+    font-weight: 800;
+    font-size: 40px;
+    margin: 5px;
+    margin-top: 20px;
+  }
+  
+  .subtext {
+    color: rgb(36, 2, 2);
+    font-weight: 600;
+    font-size: 30px;
+    margin: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .button1 {
+    background-color: var(--accent-color1);
+    transition-duration: 0.4s;
+    color: rgb(255, 255, 255);
+  }
+  
+  .button1:hover {
+    background-color: #fea889;
+    color: white;
+  }
+  
+  .button2:hover {
+    background-color: var(--accent-color1);
+  }
+  
+  .button2 {
+    background-color: #fea889;
+    color: white;
+    transition-duration: 0.4s;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 300px;
+    width: 200px;
+    border: 2px solid white;
+  }
+  #registerButtonLoginPage {
+    font-size: 20px;
+    width: 250px;
+  }
+  .symbol {
+    width: 20%;
+    font-size: 14px;
+    background-color: var(--accent-color1);
+    border-left: 1px solid rgb(118, 118, 118);
+    border-top: 1px solid rgb(118, 118, 118);
+    border-bottom: 1px solid rgb(118, 118, 118);
+    margin-right: -3.5px;
+    padding: 7px;
+  }
+  .inputWithSymbol {
+    width: 87%;
+  }
+
+  
+  .homePageDiv {
+    text-align: center;
+  }
+  
+  div.gallery {
+    border: 1px solid #ccc;
+    width: 300px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  div.desc {
+    padding: 25px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background-color: #fea889;
+  }
+
+  .formError {
+    color: red;
+    font-size: 12px;
+    margin-top: -8px;
+  }
